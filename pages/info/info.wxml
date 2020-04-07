@@ -1,0 +1,8 @@
+<view class='container'>
+    <view class='avatar'><open-data type="userAvatarUrl"></open-data></view>
+    <text class='user-name'>icessun</text>
+    <view class='moto-container' bindtap='tapName'>
+      <text class='moto'>开启小程序大门</text>
+    </view>
+</view>
+

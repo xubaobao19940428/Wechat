@@ -3,3 +3,24 @@
   background: blue;
   width:100%；
 }
+.btn1{
+  width:80%;
+  margin-top:20rpx;
+  background-color: burlywood;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.btnImg{
+  width:46rpx;
+  height:46rpx;
+  margin-right:8rpx;
+}
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+.animate{
+  background-color: black;
+}

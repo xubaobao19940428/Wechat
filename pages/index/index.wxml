@@ -3,4 +3,12 @@
   <view class='moto-container'>
     <text class='moto'>开启小程序大门</text>
   </view>
+  <button type="error">我是按钮</button>
+  <!-- hover-class为按钮按下去的样式 plain为按钮镂空透明 loading为loading图标-->
+  <button class='btn1' open-type='getUserInfo' hover-class="animate" plain="true" loading="true" bindgetuserinfo="getUserDetail">
+    <image class='btnImg' src='../img/wechat.png'></image>
+    <view>得到用户信息</view>
+ </button>
+ <button open-type='getPhoneNumber'  bindgetphonenumber="getUserPhone">获取用户手机号</button>
+  <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
 </view>

@@ -4,26 +4,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    staffA: { firstName: 'Hulk', lastName: 'Hu' },
-    staffB: { firstName: 'Shang', lastName: 'You' },
-    staffC: { firstName: 'Gideon', lastName: 'Lin' }
+    
   },
-  tapName: function (event) {
-    console.log(event)
-  },
-  //得到当前用户信息
-  getUserDetail(detail){
-    console.log(detail)
-  },
-  getUserPhone(phone){
-    console.log(phone)
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const appInstance = getApp()
-    console.log(appInstance.globalData)
+    
   },
 
   /**
