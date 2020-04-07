@@ -1,0 +1,6 @@
+<view class='container'>
+  <text class='user-name'>icessun</text>
+  <view class='moto-container'>
+    <text class='moto'>开启小程序大门</text>
+  </view>
+</view>
