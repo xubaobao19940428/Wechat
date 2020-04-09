@@ -1,0 +1,10 @@
+<template name='postItem'>
+  <view class='box'>
+    <view class='title-box'>
+      <text class='title'>{{title}}</text>
+      <text class='date'>{{date}}</text>
+    </view>
+    <image src='{{imgUrl}}' class='cont-image'></image>
+    <text class='content'>{{content}}</text>
+  </view>
+</template>

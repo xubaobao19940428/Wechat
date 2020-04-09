@@ -17,3 +17,15 @@ page{
   overflow:hidden;  
   border-radius: 50%; 
 }
+.moto{
+  width:100%;
+  display: block;
+  height:80rpx;
+  line-height: 0.7;
+  border:1px solid #cccccc;
+  border-radius: 30rpx;
+  text-align:center;
+  background-color: burlywood;
+  padding-left: 20rpx;
+  padding-right:20rpx;
+}

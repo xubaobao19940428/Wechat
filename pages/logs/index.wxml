@@ -1,1 +1,25 @@
-<text>pages/logs/index.wxml</text>
+ <import src="../template/logs/logs.wxml"/>
+ <view>
+   <swiper catchtap='onSwiperTab' indicator-dots='true' autoplay='true' interval='5000'>
+    <swiper-item>
+      <image src='../img/post/timg1.jpg' ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../img/post/timg2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../img/post/timg3.jpg' ></image>
+    </swiper-item>
+  </swiper>
+  <!-- <template is = 'postItem' data="{{datesArry}}"/> -->
+  <!-- <view wx:for='{{datesArry}}' wx:for-item='item' wx:for-index='idx' wx:key="title">
+    <view catch:tap='onBind'>{{item.date}}</view>
+    <view catch:tap='onBind'>{{item.title}}</view>
+    <view catch:tap='onBind'>{{item.content}}</view>
+  </view> -->
+  <!--...的作用就是在templae中不需要去加item直接写内容  绑定事件不能用block只能用view-->
+  <view wx:for='{{datesArry}}' wx:for-item='item' wx:for-index='idx' wx:key="idx" data-postId='{{item.postId}}' catchtap='onPostTap' >
+      <template is='postItem' data='{{...item}}'  /> 
+  </view>
+ </view>
+

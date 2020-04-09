@@ -11,5 +11,11 @@ App({
   onError(msg) {
     console.log(msg)
   },
-  globalData: 'I am global data'
+  globalData:{
+    g_isPlaying: false,
+    //  记录当前页面是否播放
+    g_currentMusicPost: null,
+    //  电影api地址
+    doubanBase: 'https://api.douban.com'
+  }
 })

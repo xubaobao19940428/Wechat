@@ -1,1 +1,6 @@
 /* pages/logs/index.wxss */
+page{
+  height:100%;
+  background-color:aliceblue;
+  font-size: small;
+}

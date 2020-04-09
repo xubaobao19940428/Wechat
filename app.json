@@ -2,15 +2,14 @@
   "pages": [
     "pages/info/info",
     "pages/index/index",
-    "pages/logs/index"
-    
+    "pages/logs/index",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarTitleText": "Demo"
   },
   "tabBar": {
     "list": [
-
       {
         "selectedIconPath": "pages/img/selectdashboard.png",
         "iconPath": "pages/img/dashboard.png",
@@ -32,5 +31,6 @@
   "debug": true,
   "navigateToMiniProgramAppIdList": [
     "wxe5f52902cf4de896"
-  ]
+  ],
+  "sitemapLocation": "sitemap.json"
 }
